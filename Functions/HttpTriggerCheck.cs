@@ -8,7 +8,6 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Azure.Data.Tables;
 using System.Collections.Generic;
-using System.Collections;
 using System.Linq;
 using System;
 
