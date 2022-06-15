@@ -1,0 +1,44 @@
+.App {
+  display: grid;
+  place-items: center;
+  grid-template-rows: repeat(3, minmax(75px, auto));
+}
+
+.match-header {
+  grid-row: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 500px;
+  background-color: burlywood;
+  height: 50px;
+}
+
+.match-header > p {
+  padding: 10px;
+}
+
+.board {
+  grid-row: 2;
+  width: 500px;
+  height: 500px;
+  background-color: aquamarine;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex: 33%;
+}
+
+.square {
+  border: 1px solid black;
+  flex: 33%;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+  font-size: 50px;
+  color: black;
+}
